@@ -1,0 +1,145 @@
+body {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    height: 78px;
+    width: 100%;
+    background: white;
+    border-bottom: 3px solid rgb(67, 127, 255);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div.header {
+    height: 99%;
+    width: 99%;
+    align-items: center;
+}
+
+.header>img {
+    height: 76px;
+    width: 76px;
+}
+
+section {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+div.contenedorForm {
+    height: 70%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.boton {
+    height: 100px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton>button {
+    height: 50px;
+    width: 150px;
+}
+
+
+/*-----------------------------T A B L A*/
+
+div.contenedorTabla {
+    height: 60%;
+    width: 50%;
+}
+
+table {
+    height: 100%;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+thead,
+tbody {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+tbody {
+    flex-direction: column;
+}
+
+thead {
+    height: 2.5em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid black;
+    background: rgb(67, 127, 255);
+}
+
+tr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+}
+
+thead>tr {
+    height: 94%;
+}
+
+tbody>tr {
+    max-height: 2.3em;
+    margin-top: 5px;
+    padding-bottom: 2px;
+}
+
+th {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 32%;
+}
+
+th>p {
+    font-family: 'Titillium Web';
+    text-align: center;
+    margin: auto;
+}
+
+p.HeadTabla {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    color: white;
+}
+
+p.BodyTabla {
+    max-height: 28px;
+    font-size: 0.9em;
+    color: rgb(34, 34, 34);
+}
